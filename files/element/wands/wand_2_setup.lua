@@ -22,15 +22,15 @@ local ability_comp = EntityGetFirstComponent( entity_id, "AbilityComponent" )
 
 local wand = { }
 wand.name = {"summoner_wand"}
-wand.deck_capacity = {2,3}
-wand.actions_per_round = 1
-wand.reload_time = {30,50}
+wand.deck_capacity = {25,25}
+wand.actions_per_round = 25
+wand.reload_time = {1,1}
 wand.shuffle_deck_when_empty = 0
-wand.fire_rate_wait = {30,50}
-wand.spread_degrees = {5,10}
+wand.fire_rate_wait = {1,1}
+wand.spread_degrees = {0,0}
 wand.speed_multiplier = 1
-wand.mana_charge_speed = {15,35}
-wand.mana_max = {120,150}
+wand.mana_charge_speed = {900,900}
+wand.mana_max = {900,900}
 
 local mana_max = get_random_between_range( wand.mana_max )
 local deck_capacity = get_random_between_range( wand.deck_capacity )
@@ -50,11 +50,47 @@ ComponentObjectSetValue( ability_comp, "gunaction_config", "speed_multiplier", w
 ComponentSetValue( ability_comp, "mana_max", mana_max )
 ComponentSetValue( ability_comp, "mana", mana_max )
 
-if ( Random( 1, 400 > 1 ) ) then
-	AddGunActionPermanent( entity_id, "SUMMON_ROCK" )
-else
-	ComponentObjectSetValue( ability_comp, "gun_config", "reload_time", 500 )
-	ComponentObjectSetValue( ability_comp, "gunaction_config", "spread_degrees", 15 )
-	ComponentObjectSetValue( ability_comp, "gun_config", "shuffle_deck_when_empty", 1 )
-	AddGunActionPermanent( entity_id, "SUMMON_EGG" )
-end
+AddGunActionPermanent( entity_id, "CHAIN_BOLT" )
+AddGunActionPermanent( entity_id, "FLOATING_ARC" )
+AddGunActionPermanent( entity_id, "CLIPPING_SHOT" )
+AddGunActionPermanent( entity_id, "HOMING_SHORT" )
+
+AddGunAction( entity_id, "CRUMBLING_EARTH_PROJECTILE" )
+
+AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
+AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER" )
+AddGunAction( entity_id, "LIGHT_BULLET" )
+-- AddGunAction( entity_id, "HITFX_EXPLOSION_SLIME_GIGA" )
+
+-- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
+-- AddGunAction( entity_id, "ALCOHOL_BLAST" )
+
+-- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
+-- AddGunAction( entity_id, "HITFX_EXPLOSION_ALCOHOL_GIGA" )
+
+-- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
+-- AddGunAction( entity_id, "THUNDER_BLAST" )
+
+-- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
+-- AddGunAction( entity_id, "EXPLOSION" )
+
+-- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
+-- AddGunAction( entity_id, "DEATH_CROSS_BIG" )
+
+-- AddGunAction( entity_id, "LASER" )
+-- AddGunAction( entity_id, "LASER_EMITTER" )
+-- AddGunAction( entity_id, "LASER_EMITTER_CUTTER" )
+-- AddGunAction( entity_id, "LASER_EMITTER_FOUR" )
+-- AddGunAction( entity_id, "LASER_EMITTER_RAY" )
+-- AddGunAction( entity_id, "LASER_EMITTER_WIDER" )
+
+
+
+-- if ( Random( 1, 400 > 1 ) ) then
+-- 	AddGunActionPermanent( entity_id, "SUMMON_ROCK" )
+-- else
+-- 	ComponentObjectSetValue( ability_comp, "gun_config", "reload_time", 500 )
+-- 	ComponentObjectSetValue( ability_comp, "gunaction_config", "spread_degrees", 15 )
+-- 	ComponentObjectSetValue( ability_comp, "gun_config", "shuffle_deck_when_empty", 1 )
+-- 	AddGunActionPermanent( entity_id, "SUMMON_EGG" )
+-- end

@@ -1,0 +1,8 @@
+mods/mymod/files/ke/ragdoll/torso.png
+mods/mymod/files/ke/ragdoll/right_thigh.png
+mods/mymod/files/ke/ragdoll/right_arm.png
+mods/mymod/files/ke/ragdoll/right_hand.png
+mods/mymod/files/ke/ragdoll/left_thigh.png
+mods/mymod/files/ke/ragdoll/left_arm.png
+mods/mymod/files/ke/ragdoll/left_hand.png
+mods/mymod/files/ke/ragdoll/head.png

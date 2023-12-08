@@ -2,7 +2,7 @@
 
 	<AbilityComponent
 		_enabled="1" 
-		sprite_file="mods/starting_loadouts/files/wand_gfx/wand_1.xml"
+		sprite_file="mods/mymod/files/wand_gfx/wand_1.xml"
 		swim_propel_amount="0"
 		ui_name=""
 		drop_as_item_on_death="0"
@@ -40,7 +40,7 @@
 	<LuaComponent 
 		execute_on_added="1"
 		remove_after_executed="1"
-		script_source_file="mods/starting_loadouts/files/eldritch/wands/wand_1_setup.lua"
+		script_source_file="mods/mymod/files/eldritch/wands/wand_1_setup.lua"
 		>
 	</LuaComponent>
 

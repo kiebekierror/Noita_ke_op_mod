@@ -1,5 +1,5 @@
 <Sprite
-  filename="mods/starting_loadouts/files/fire/player_arm.png"
+  filename="mods/mymod/files/fire/player_arm.png"
   hotspots_filename="data/enemies_gfx/player_arm_hotspots.png"
   offset_x="0"
   offset_y="2" 

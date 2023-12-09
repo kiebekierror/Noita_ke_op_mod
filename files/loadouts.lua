@@ -33,6 +33,7 @@ loadout_list =
 			"STRONG_KICK",
 		},
 	},]]
+--[[
 	{
 		name = "a Element TYPE",
 		folder = "element",
@@ -84,7 +85,7 @@ loadout_list =
             "ORBIT",
             "PROJECTILE_DUPLICATE",
             "PROJECTILE_EATER_SECTOR",
-            "PROJECTILE_HOMING",
+            -- "PROJECTILE_HOMING",
             "PROJECTILE_REPULSION",
             "PROJECTILE_REPULSION_SECTOR",
             "PROJECTILE_SLOW_FIELD",
@@ -136,16 +137,85 @@ loadout_list =
 			"EXTRA_HP",
 			"EXTRA_HP",
 			"EXTRA_HP",
-			"EXTRA_HP",
-			"EXTRA_HP",
-			"EXTRA_HP",
-			"EXTRA_HP",
-			"EXTRA_HP",
-			"EXTRA_HP",
+			-- "EXTRA_HP",
+			-- "EXTRA_HP",
+			-- "EXTRA_HP",
+			-- "EXTRA_HP",
+			-- "EXTRA_HP",
+			-- "EXTRA_HP",
 
 			"NO_DAMAGE_FLASH",
 			"MYSTERY_EGGPLANT",
 			"MYSTERY_EGG",
+		},
+	},
+]]
+	{
+		name = "a Element TYPE",
+		folder = "element",
+		cape_color = 0xff9d7b4d,
+		cape_color_edge = 0xff846235,
+		items =
+		{
+			"mods/mymod/files/element/wands/wand_0.xml",
+			"mods/mymod/files/element/wands/wand_1.xml",
+			"mods/mymod/files/element/wands/wand_2.xml",
+			"mods/mymod/files/element/wands/wand_3.xml",
+			{ "data/entities/items/pickup/potion_water.xml", amount = 4 }
+		},
+		perks =
+		{
+            "HOVER_BOOST",
+			"HEARTS_MORE_EXTRA_HP",
+			{ "EXTRA_HP", 99 },
+            "DISSOLVE_POWDERS",
+			"EXTRA_MONEY",
+			"EXTRA_MONEY_TRICK_KILL",
+            "FASTER_LEVITATION",
+            "MOVEMENT_FASTER",
+			"LASER_AIM",
+            "LOW_RECOIL",
+            "LIQUID_MOVEMENT",
+            "PROJECTILE_EATER_SECTOR",
+            -- "PROJECTILE_HOMING",
+            "PROJECTILE_REPULSION",
+            "PROJECTILE_REPULSION_SECTOR",
+            "PROJECTILE_SLOW_FIELD",
+            "PROTECTION_ELECTRICITY",
+            "PROTECTION_EXPLOSION",
+            "PROTECTION_FIRE",
+            "PROTECTION_MELEE",
+            "PROTECTION_RADIOACTIVITY",
+            "REMOVE_FOG_OF_WAR",
+            "REPELLING_CAPE",
+            "SHIELD",
+            "STRONG_KICK",
+            -- "TELEKINESIS",
+            -- "TELEPORTITIS_DODGE",
+            "UNLIMITED_SPELLS",
+            "VAMPIRISM",
+            "SAVING_GRACE",
+			"NO_MORE_SHUFFLE",
+			"IRON_STOMACH",
+			"ATTRACT_ITEMS",
+			"BREATH_UNDERWATER",
+			"EDIT_WANDS_EVERYWHERE",
+			-- "EXPLODING_GOLD",
+			-- "GLOBAL_GORE",
+			"GOLD_IS_FOREVER",
+
+            -- no perk with such id exits
+            -- "GAS_FIRE",									-- perk id not exits
+			-- { "EXTRA_WAND_SLOT", 4 },					-- perk id not exits
+			-- { "EXTRA_POTION_SLOT", 4 },					-- perk id not exits
+			-- { "EXTRA_ACTION_STORAGE", 10 },				-- perk id not exits
+            -- "FASTER_SWIMMING",							-- perk id not exits
+            -- "PERMANENT_FLYING",							-- perk id not exits
+            -- "PROJECTILE_DUPLICATE",						-- perk id not exits
+            -- "PROTECTION_FREEZE",							-- perk id not exits
+            -- "TOUCH_GOLD",								-- perk id not exits
+            -- "RADAR_WAND",								-- perk id not exits
+			-- "NO_PLAYER_KNOCKBACK",						-- perk id not exits
 		},
 	},
 }

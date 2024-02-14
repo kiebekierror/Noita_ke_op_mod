@@ -174,7 +174,7 @@ loadout_list =
             "FASTER_LEVITATION",
             "MOVEMENT_FASTER",
 			"LASER_AIM",
-            "LOW_RECOIL",
+            -- "LOW_RECOIL",
             "LIQUID_MOVEMENT",
             "PROJECTILE_EATER_SECTOR",
             -- "PROJECTILE_HOMING",

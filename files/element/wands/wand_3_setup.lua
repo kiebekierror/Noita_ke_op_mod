@@ -23,13 +23,13 @@ local ability_comp = EntityGetFirstComponent( entity_id, "AbilityComponent" )
 local wand = { }
 wand.name = {"summoner_wand"}
 wand.deck_capacity = {30,30}
-wand.actions_per_round = 3
+wand.actions_per_round = 30
 wand.reload_time = {1,1}
 wand.shuffle_deck_when_empty = 1
 wand.fire_rate_wait = {1,1}
 wand.spread_degrees = 0
 wand.speed_multiplier = 1
-wand.mana_charge_speed = {170000,190000}
+wand.mana_charge_speed = {1700000,1900000}
 wand.mana_max = {220000,260000}
 
 local mana_max = get_random_between_range( wand.mana_max )
@@ -53,9 +53,15 @@ ComponentSetValue( ability_comp, "mana", mana_max )
 -- AddGunActionPermanent( entity_id, "wand_action" )
 -- AddGunAction( entity_id, "wand_action" )
 
-AddGunActionPermanent( entity_id, "HOMING_SHORT" )
+AddGunActionPermanent( entity_id, "SPREAD_REDUCE" )
 AddGunActionPermanent( entity_id, "SPEED" )
+AddGunActionPermanent( entity_id, "RECHARGE" )
 
+AddGunAction( entity_id, "TORCH_ELECTRIC" )
+AddGunAction( entity_id, "HOMING_SHORT" )
+AddGunAction( entity_id, "NOLLA" )
+AddGunAction( entity_id, "LONG_DISTANCE_CAST" )
+AddGunAction( entity_id, "LONG_DISTANCE_CAST" )
 AddGunAction( entity_id, "SEA_WATER" )
 AddGunAction( entity_id, "SEA_ACID" )
 AddGunAction( entity_id, "EXPLOSION" )
@@ -64,6 +70,7 @@ AddGunAction( entity_id, "POWERDIGGER" )
 AddGunAction( entity_id, "DIGGER" )
 AddGunAction( entity_id, "NUKE" )
 AddGunAction( entity_id, "EXPLOSIVE_PROJECTILE" )
+AddGunAction( entity_id, "MATTER_EATER" )
 
 -- AddGunAction( entity_id, "KEYSHOT" )
 -- AddGunAction( entity_id, "PLASMA_FLARE" )

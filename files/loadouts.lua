@@ -12,8 +12,8 @@ loadout_list =
 		cape_color_edge = 0xff3c696a,
 		items = 
 		{
-			"mods/keopmod/files/summoner/wands/wand_1.xml",
-			"mods/keopmod/files/summoner/wands/wand_2.xml",
+			"mods/keopgamemode/files/summoner/wands/wand_1.xml",
+			"mods/keopgamemode/files/summoner/wands/wand_2.xml",
 			"data/entities/items/pickup/potion_water.xml",
 			{ 
 			options = { "data/entities/items/pickup/egg_fire.xml", "data/entities/items/pickup/egg_red.xml", "data/entities/items/pickup/egg_monster.xml", "data/entities/items/pickup/egg_slime.xml" },
@@ -42,8 +42,8 @@ loadout_list =
 		cape_color_edge = 0xff846235,
 		items =
 		{
-			"mods/keopmod/files/element/wands/wand_2.xml",
-			"mods/keopmod/files/element/wands/wand_1.xml",
+			"mods/keopgamemode/files/element/wands/wand_2.xml",
+			"mods/keopgamemode/files/element/wands/wand_1.xml",
 			"data/entities/items/pickup/potion_water.xml",
 		},
 		perks =
@@ -157,10 +157,10 @@ loadout_list =
 		cape_color_edge = 0xff846235,
 		items =
 		{
-			"mods/keopmod/files/element/wands/wand_0.xml",
-			"mods/keopmod/files/element/wands/wand_1.xml",
-			"mods/keopmod/files/element/wands/wand_2.xml",
-			"mods/keopmod/files/element/wands/wand_3.xml",
+			"mods/keopgamemode/files/element/wands/wand_0.xml",
+			"mods/keopgamemode/files/element/wands/wand_1.xml",
+			"mods/keopgamemode/files/element/wands/wand_2.xml",
+			"mods/keopgamemode/files/element/wands/wand_3.xml",
 			{ "data/entities/items/pickup/potion_water.xml", amount = 4 }
 		},
 		perks =

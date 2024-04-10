@@ -1,8 +1,8 @@
-mods/keopmod/files/ke/ragdoll/torso.png
-mods/keopmod/files/ke/ragdoll/right_thigh.png
-mods/keopmod/files/ke/ragdoll/right_arm.png
-mods/keopmod/files/ke/ragdoll/right_hand.png
-mods/keopmod/files/ke/ragdoll/left_thigh.png
-mods/keopmod/files/ke/ragdoll/left_arm.png
-mods/keopmod/files/ke/ragdoll/left_hand.png
-mods/keopmod/files/ke/ragdoll/head.png
+mods/keopgamemode/files/ke/ragdoll/torso.png
+mods/keopgamemode/files/ke/ragdoll/right_thigh.png
+mods/keopgamemode/files/ke/ragdoll/right_arm.png
+mods/keopgamemode/files/ke/ragdoll/right_hand.png
+mods/keopgamemode/files/ke/ragdoll/left_thigh.png
+mods/keopgamemode/files/ke/ragdoll/left_arm.png
+mods/keopgamemode/files/ke/ragdoll/left_hand.png
+mods/keopgamemode/files/ke/ragdoll/head.png

@@ -8,11 +8,11 @@ loadout_list =
         cape_color_edge = 0xff76547f,
         items = 
         {
-            "mods/keopmod/files/ke/wands/wand_1.xml",
-            "mods/keopmod/files/ke/wands/wand_2.xml",
-            "mods/keopmod/files/ke/wands/wand_3.xml",
+            "mods/keopgamemode/files/ke/wands/wand_1.xml",
+            "mods/keopgamemode/files/ke/wands/wand_2.xml",
+            "mods/keopgamemode/files/ke/wands/wand_3.xml",
             {
-            "mods/keopmod/files/                              i/potion_slime.xml",
+            "mods/keopgamemode/files/                              i/potion_slime.xml",
             amount = 2,
             },
         },

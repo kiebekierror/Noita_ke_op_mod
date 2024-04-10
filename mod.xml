@@ -1,16 +1,16 @@
 <Mod
-	name="My Mod"
-	description="My mod."
-	ui_newgame_name="My Mod"
-	ui_newgame_description="My mod ;P.
+	name="K.E. OP Mod"
+	description="K.E. OP mod."
+	ui_newgame_name="K.E. OP Mod"
+	ui_newgame_description="K.E. OP mod ;P.
 for easy game.
 $gamemode_mymod"
-	ui_newgame_gfx_banner_bg="mods/mymod/files/menu_banner_background.png"
-	ui_newgame_gfx_banner_fg="mods/mymod/files/menu_banner_overlay.png"
+	ui_newgame_gfx_banner_bg="mods/keopmod/files/menu_banner_background.png"
+	ui_newgame_gfx_banner_fg="mods/keopmod/files/menu_banner_overlay.png"
 	request_no_api_restrictions="0"
 	is_game_mode="1"
 	is_translation="0"
-	translation_xml_path="mods/mymod/translation.xml"
-	translation_csv_path="mods/mymod/translation.csv"
+	translation_xml_path="mods/keopmod/translation.xml"
+	translation_csv_path="mods/keopmod/translation.csv"
 	>
 </Mod>

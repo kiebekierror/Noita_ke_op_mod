@@ -1,8 +1,8 @@
 <Mod
-	name="K.E. OP Mod"
-	description="K.E. OP mod."
-	ui_newgame_name="K.E. OP Mod"
-	ui_newgame_description="K.E. OP mod ;P.
+	name="K.E. OP Game Mode"
+	description="K.E. OP Game Mode."
+	ui_newgame_name="K.E. OP Game Mode"
+	ui_newgame_description="K.E. OP Game Mode ;P.
 for easy game.
 $gamemode_mymod"
 	ui_newgame_gfx_banner_bg="mods/keopmod/files/menu_banner_background.png"

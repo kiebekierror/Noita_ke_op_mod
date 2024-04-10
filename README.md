@@ -1,4 +1,4 @@
-# K.E. op mod
+# K.E. OP Game Mode
 
 # Usage
 

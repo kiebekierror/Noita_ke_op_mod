@@ -2,24 +2,27 @@
 
    <AbilityComponent
         _enabled="1" 
-        sprite_file="mods/keopgamemode/files/wand_gfx/wand_2.xml"
+        sprite_file="mods/keopgamemode/files/wand_gfx/wand_0.xml"
         swim_propel_amount="0"
         ui_name=""
         drop_as_item_on_death="0"
-        cooldown_frames="1"
-        entity_count="1"
+        cooldown_frames="0"
+        entity_count="1" 
+        entity_file="" 
+        fast_projectile="0" 
         reload_time_frames="0"
-		mana_charge_speed="20"
-		mana_max="120"
+		mana_charge_speed="180"
+		mana_max="240"
 		use_gun_script="1" 
         >
         <gun_config 
-            shuffle_deck_when_empty="0"
-            reload_time="1"
+			actions_per_round="2"
+            shuffle_deck_when_empty="1"
+            reload_time="40"
             deck_capacity="2" >
         </gun_config>
         <gunaction_config 
-            fire_rate_wait="1" >
+            fire_rate_wait="15" >
         </gunaction_config>
     </AbilityComponent>
 	
@@ -40,7 +43,7 @@
    <LuaComponent 
 		execute_on_added="1"
 		remove_after_executed="1"
-		script_source_file="mods/keopgamemode/files/ke/wands/wand_2_setup.lua"
+		script_source_file="mods/keopgamemode/files/ke/wands/wand_0_setup.lua"
 		>
 	</LuaComponent>
 

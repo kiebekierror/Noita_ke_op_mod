@@ -23,7 +23,7 @@ local ability_comp = EntityGetFirstComponent( entity_id, "AbilityComponent" )
 local wand = { }
 wand.name = {"summoner_wand"}
 wand.deck_capacity = {30,30}
-wand.actions_per_round = 30
+wand.actions_per_round = 1
 wand.reload_time = {1,1}
 wand.shuffle_deck_when_empty = 0
 wand.fire_rate_wait = {1,1}
@@ -50,40 +50,43 @@ ComponentObjectSetValue( ability_comp, "gunaction_config", "speed_multiplier", w
 ComponentSetValue( ability_comp, "mana_max", mana_max )
 ComponentSetValue( ability_comp, "mana", mana_max )
 
-AddGunActionPermanent( entity_id, "SPREAD_REDUCE" )
-AddGunActionPermanent( entity_id, "NECROMANCY" )
-AddGunActionPermanent( entity_id, "SPEED" )
-AddGunActionPermanent( entity_id, "RECHARGE" )
+
+
+-- AddGunActionPermanent( entity_id, "SPREAD_REDUCE" )
+-- AddGunActionPermanent( entity_id, "SPEED" )
+-- AddGunActionPermanent( entity_id, "RECHARGE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE_BIG" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_DEATH_TRIGGER" )
 
 AddGunAction( entity_id, "TORCH_ELECTRIC" )
 AddGunAction( entity_id, "HOMING_SHORT" )
-AddGunAction( entity_id, "NOLLA" )
-AddGunAction( entity_id, "CLIPPING_SHOT" )
-AddGunAction( entity_id, "CRUMBLING_EARTH_PROJECTILE" )
-AddGunAction( entity_id, "CHAIN_BOLT" )
-AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
 AddGunAction( entity_id, "LONG_DISTANCE_CAST" )
 AddGunAction( entity_id, "LONG_DISTANCE_CAST" )
--- AddGunAction( entity_id, "HITFX_EXPLOSION_SLIME_GIGA" )
-
--- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
--- AddGunAction( entity_id, "ALCOHOL_BLAST" )
-
--- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
--- AddGunAction( entity_id, "HITFX_EXPLOSION_ALCOHOL_GIGA" )
-
--- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
--- AddGunAction( entity_id, "THUNDER_BLAST" )
-
--- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
--- AddGunAction( entity_id, "EXPLOSION" )
-
--- AddGunAction( entity_id, "LIGHT_BULLET_TRIGGER_2" )
--- AddGunAction( entity_id, "DEATH_CROSS_BIG" )
-
-AddGunAction( entity_id, "LASER" )
-AddGunAction( entity_id, "LASER_EMITTER" )
-AddGunAction( entity_id, "LASER_EMITTER_CUTTER" )
-AddGunAction( entity_id, "LASER_EMITTER_FOUR" )
-AddGunAction( entity_id, "LASER_EMITTER_RAY" )
-AddGunAction( entity_id, "LASER_EMITTER_WIDER" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE" )
+AddGunAction( entity_id, "BLACK_HOLE_BIG" )
+AddGunAction( entity_id, "BLACK_HOLE_DEATH_TRIGGER" )
+AddGunAction( entity_id, "BLACK_HOLE_DEATH_TRIGGER" )
+AddGunAction( entity_id, "BLACK_HOLE_DEATH_TRIGGER" )
+AddGunAction( entity_id, "BLACK_HOLE_DEATH_TRIGGER" )
+AddGunAction( entity_id, "BLACK_HOLE_DEATH_TRIGGER" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )
+AddGunAction( entity_id, "BLACK_HOLE_GIGA" )

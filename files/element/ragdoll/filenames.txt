@@ -1,8 +1,0 @@
-mods/mymod/files/element/ragdoll/torso.png
-mods/mymod/files/element/ragdoll/right_thigh.png
-mods/mymod/files/element/ragdoll/right_arm.png
-mods/mymod/files/element/ragdoll/right_hand.png
-mods/mymod/files/element/ragdoll/left_thigh.png
-mods/mymod/files/element/ragdoll/left_arm.png
-mods/mymod/files/element/ragdoll/left_hand.png
-mods/mymod/files/element/ragdoll/head.png

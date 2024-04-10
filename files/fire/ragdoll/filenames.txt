@@ -1,8 +1,0 @@
-mods/mymod/files/fire/ragdoll/torso.png
-mods/mymod/files/fire/ragdoll/right_thigh.png
-mods/mymod/files/fire/ragdoll/right_arm.png
-mods/mymod/files/fire/ragdoll/right_hand.png
-mods/mymod/files/fire/ragdoll/left_thigh.png
-mods/mymod/files/fire/ragdoll/left_arm.png
-mods/mymod/files/fire/ragdoll/left_hand.png
-mods/mymod/files/fire/ragdoll/head.png

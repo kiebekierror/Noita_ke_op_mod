@@ -1,8 +1,0 @@
-mods/mymod/files/eldritch/ragdoll/torso.png
-mods/mymod/files/eldritch/ragdoll/right_thigh.png
-mods/mymod/files/eldritch/ragdoll/right_arm.png
-mods/mymod/files/eldritch/ragdoll/right_hand.png
-mods/mymod/files/eldritch/ragdoll/left_thigh.png
-mods/mymod/files/eldritch/ragdoll/left_arm.png
-mods/mymod/files/eldritch/ragdoll/left_hand.png
-mods/mymod/files/eldritch/ragdoll/head.png
